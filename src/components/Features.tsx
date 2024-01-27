@@ -3,7 +3,7 @@ const Features = () => {
     <section className="flex min-h-screen w-full px-6 py-16">
       <div className="w-full  justify-center items-center flex flex-col bg-white p-10 rounded">
         <p className="my-4 text-[40px] font-bold text-green-600">Features</p>
-        <div className="w-full justify-center items-center grid grid-cols-3 rounded gap-6 mt-4">
+        <div className="w-full justify-center items-center grid grid-cols-1 md:grid-cols-3 rounded gap-6 mt-4">
           <div className="p-4 shadow shadow-gray-500 rounded-xl flex flex-col justify-start">
             <a href="" className="text-[#6e57e3]">
               <svg
